@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,29 @@
 </head>
 
 <body>
-  
+  <h1>Hello</h1>
+  <script>
+    console.log("hello")
+
+    function add7(numIn){
+      return numIn + 7
+    }
+    
+    let add8 = (numIn) => numIn+8;
+
+    function multiply(a,b) {
+      return a*b;
+    }
+
+    function capitalise(input) {
+      if (typeof(input)!="string") return alert("Can't capitalise something that's not a string of text!");
+      else {
+          return input.charAt(0).toUpperCase() + input.slice(1).toLowerCase();
+      };
+
+    }
+
+  </script>
 </body>
+
 </html>
